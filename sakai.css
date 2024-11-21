@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10;
+    padding: 10;
+    background: linear-gradient(to right, #ff0303c5, #000000);
+    color: aquamarine;
+    overflow-x: hidden;
+}
+
+.hearder {
+    text-align: center;
+    padding: 10;
+    background-color: cornsilk;
+}
+
+.titulo {
+    font-size: 5em;
+    margin: 5;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.subtitulo {
+    font-size: 2.0em;
+    color: aquamarine;
+    margin-top: 15px;
+}
+
+.navegacion {
+    text-align: center;
+    background-color: rgba(146, 116, 17, 0.822);
+    padding: 15px;
+}
+
+.navegacion ul {
+    list-style-type: none;
+    margin: 3;
+    padding: 5;
+}
+
+.navegacion li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navegacion a {
+    color: #ffffffc5;
+    text-decoration: double;
+    font-size: 2.5em;
+}
+
+.navegacion a:hover {
+    color: blueviolet;
+}
+
+.seccion {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.subtitulo {
+    font-size: 5em;
+    margin-bottom: 25px;
+}
+
+.imagen {
+    text-align: center;
+    margin: 3;
+    padding: 5;
+}
+
+.rombo {
+    position: relative;
+    left: 900px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    width: 100px;
+    height: 100px;
+    background: #00ff40a1;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
